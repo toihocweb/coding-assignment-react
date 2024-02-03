@@ -6,6 +6,6 @@ export type User = {
 export type Ticket = {
   id: number;
   description: string;
-  assigneeId: null | number;
+  assigneeId: string;
   completed: boolean;
 };

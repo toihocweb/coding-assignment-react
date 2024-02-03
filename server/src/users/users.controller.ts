@@ -1,4 +1,10 @@
-import { Controller, Get, Param, NotFoundException } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Param,
+  NotFoundException,
+  Post,
+} from '@nestjs/common';
 import { randomDelay } from '../utils/random-delay';
 import { UsersService } from './users.service';
 
